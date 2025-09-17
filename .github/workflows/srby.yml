@@ -21,7 +21,7 @@ jobs:
         run: |
           pip install requests
 
-      - name: osmanlitokadi Script Çalıştır
+      - name: srby Script Çalıştır
         run: |
           python srby.py
 

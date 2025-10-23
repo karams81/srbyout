@@ -1,6 +1,6 @@
 class SalamisTVManager:
     def __init__(self):
-        self.referer_url = "https://salamistv15.online/"
+        self.referer_url = "https://salamistv16.online/"
         self.base_stream_url = "https://macarenatv4.com"
         self.logo_url = "https://i.hizliresim.com/b6xqz10.jpg"
         self.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"

@@ -36,8 +36,9 @@ def kategori_tara(base_url, kategori):
             logging.warning(f"{url} sayfasına erişilemedi.")
             return []
         soup = BeautifulSoup(r.text, "html.parser")
-        # Örnek: içerikler 'a' tagleri ile listeleniyor
-        links = [a['href'] for a in soup.find_all('a', href=True)]
+        # Sadece /dizi/ veya /film/ içeren linkleri al
+        links = [base_url + a['href'] for a in soup.find_all('a', href=True)
+                 if a['href'].startswith('/dizi/') or a['href'].startswith('/film/')]
         logging.info(f"{url} içinde {len(links)} içerik bulundu.")
         return links
     except Exception as e:
@@ -73,7 +74,10 @@ def main():
         icerikler = kategori_tara(base_url, kategori)
         toplam_icerik.extend(icerikler)
 
-    playlist_olustur(toplam_icerik, args.output)
+    if toplam_icerik:
+        playlist_olustur(toplam_icerik, args.output)
+    else:
+        logging.warning("⚠️ Hiç içerik bulunamadığı için playlist oluşturulmadı.")
 
 if __name__ == "__main__":
     main()

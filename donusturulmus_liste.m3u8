@@ -1,4 +1,38 @@
 #EXTM3U
+#EXTINF:0 tvg-rec="0",TRT Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2281/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas 2 FHD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12262/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas 2 HD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14208/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas 3 FHD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12264/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas 3 HD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14220/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas Plus FHD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12257/index.m3u8
+#EXTINF:0 tvg-rec="0",Turkish Dramas Plus HD IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14207/index.m3u8
+#EXTINF:0 tvg-rec="3",CNN Turk FHD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6926/index.m3u8
+#EXTINF:0 tvg-rec="3",CNN Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2305/index.m3u8
+#EXTINF:0 tvg-rec="3",Dream Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6873/index.m3u8
+#EXTINF:0 tvg-rec="3",Haber Turk FHD
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2308/index.m3u8
+#EXTINF:0 tvg-rec="3",Haber Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6927/index.m3u8
+#EXTINF:0 tvg-rec="3",Movie Smart Turk TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6807/index.m3u8
+#EXTINF:0 tvg-rec="3",NR1 Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2267/index.m3u8
+#EXTINF:0 tvg-rec="3",Power Turk HD TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2298/index.m3u8
+#EXTINF:0 tvg-rec="3",TRT Turk TR
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6798/index.m3u8
+#EXTINF:0 tvg-rec="3",Turkish Dramas Plus IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2363/index.m3u8
 #EXTINF:0 tvg-rec="0",#dabeiTV HD DE
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/31279/index.m3u8
 #EXTINF:0 tvg-rec="0",#ё HD (Самара)
@@ -3249,8 +3283,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/19068/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/19072/index.m3u8
 #EXTINF:0 tvg-rec="0",TRT Spor TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/19067/index.m3u8
-#EXTINF:0 tvg-rec="0",TRT Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2281/index.m3u8
 #EXTINF:0 tvg-rec="0",True Amateurs
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6260/index.m3u8
 #EXTINF:0 tvg-rec="0",Tsayg TV HD AM
@@ -3265,18 +3297,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6522/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6445/index.m3u8
 #EXTINF:0 tvg-rec="0",TUDN HD US
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/31103/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas 2 FHD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12262/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas 2 HD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14208/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas 3 FHD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12264/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas 3 HD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14220/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas Plus FHD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12257/index.m3u8
-#EXTINF:0 tvg-rec="0",Turkish Dramas Plus HD IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14207/index.m3u8
 #EXTINF:0 tvg-rec="0",Turner Classic Movies CA
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6509/index.m3u8
 #EXTINF:0 tvg-rec="0",Turner Classic Movies HD CA
@@ -5485,10 +5505,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2395/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/962/index.m3u8
 #EXTINF:0 tvg-rec="3",CNN International Europe
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/842/index.m3u8
-#EXTINF:0 tvg-rec="3",CNN Turk FHD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6926/index.m3u8
-#EXTINF:0 tvg-rec="3",CNN Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2305/index.m3u8
 #EXTINF:0 tvg-rec="3",Comedy AM
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/277/index.m3u8
 #EXTINF:0 tvg-rec="3",Comedy Arxi GE
@@ -5587,8 +5603,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/7049/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/245/index.m3u8
 #EXTINF:0 tvg-rec="3",Dost TV TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6793/index.m3u8
-#EXTINF:0 tvg-rec="3",Dream Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6873/index.m3u8
 #EXTINF:0 tvg-rec="3",Duck TV HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/1031/index.m3u8
 #EXTINF:0 tvg-rec="3",Dunya TV AZ
@@ -5777,10 +5791,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/601/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/603/index.m3u8
 #EXTINF:0 tvg-rec="3",Haber Global TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6928/index.m3u8
-#EXTINF:0 tvg-rec="3",Haber Turk FHD
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2308/index.m3u8
-#EXTINF:0 tvg-rec="3",Haber Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6927/index.m3u8
 #EXTINF:0 tvg-rec="3",Hallmark Movies & Mysteries HD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/1075/index.m3u8
 #EXTINF:0 tvg-rec="3",Happy Channel HD RO
@@ -6033,8 +6043,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/1091/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6112/index.m3u8
 #EXTINF:0 tvg-rec="3",Movie Smart Action TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6812/index.m3u8
-#EXTINF:0 tvg-rec="3",Movie Smart Turk TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6807/index.m3u8
 #EXTINF:0 tvg-rec="3",MTV 80s RO
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6977/index.m3u8
 #EXTINF:0 tvg-rec="3",MTV 90s
@@ -6135,8 +6143,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2556/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2309/index.m3u8
 #EXTINF:0 tvg-rec="3",NR1 HD TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6874/index.m3u8
-#EXTINF:0 tvg-rec="3",NR1 Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2267/index.m3u8
 #EXTINF:0 tvg-rec="3",NTS TV MD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2452/index.m3u8
 #EXTINF:0 tvg-rec="3",NTV FHD TR
@@ -6193,8 +6199,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6087/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/7150/index.m3u8
 #EXTINF:0 tvg-rec="3",Power HD TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2297/index.m3u8
-#EXTINF:0 tvg-rec="3",Power Turk HD TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2298/index.m3u8
 #EXTINF:0 tvg-rec="3",Premier Sports 1 HD 50 UK
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2160/index.m3u8
 #EXTINF:0 tvg-rec="3",Premier Sports 1 HD UK
@@ -6545,14 +6549,10 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6870/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6869/index.m3u8
 #EXTINF:0 tvg-rec="3",TRT Spor Yildiz HD TR
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2145/index.m3u8
-#EXTINF:0 tvg-rec="3",TRT Turk TR
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6798/index.m3u8
 #EXTINF:0 tvg-rec="3",truTV HD US
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/1085/index.m3u8
 #EXTINF:0 tvg-rec="3",Tuntunik AM
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/279/index.m3u8
-#EXTINF:0 tvg-rec="3",Turkish Dramas Plus IL
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2363/index.m3u8
 #EXTINF:0 tvg-rec="3",TV 2 Sport 2 HD NO
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2540/index.m3u8
 #EXTINF:0 tvg-rec="3",TV 2000 TR

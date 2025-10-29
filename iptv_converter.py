@@ -66,7 +66,7 @@ def parse_source_playlist(source_content):
 def build_new_playlist(channels):
     """
     Kanalları olduğu gibi bırakır, URL’leri değiştirme.
-    Türk kanalları başa alınır.
+    Türk kanalları başa alınır (esnek kontrol).
     """
     if not channels:
         return "#EXTM3U\n# UYARI: İşlenecek hiç kanal bulunamadı."
@@ -76,9 +76,12 @@ def build_new_playlist(channels):
     turkish_channels = []
     other_channels = []
 
+    # Türk kanallarını esnek şekilde ayır
+    turkish_keywords = ['türk', 'turk', 'türkçe', 'turkish']
+
     for channel in channels:
-        group_lower = channel['group'].lower()
-        if 'türk' in group_lower or 'turk' in group_lower:
+        content_to_check = (channel['group'] + " " + channel['extinf']).lower()
+        if any(keyword in content_to_check for keyword in turkish_keywords):
             turkish_channels.append(channel)
         else:
             other_channels.append(channel)

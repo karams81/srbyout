@@ -4,7 +4,7 @@ name: Update IPTV Playlist
 # Bu iş akışını neyin tetikleyeceğini belirler
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '*/30 * * * *'  # Her 90 dakikada bir (UTC)
   workflow_dispatch:
   push:
     branches:

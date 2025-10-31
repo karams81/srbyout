@@ -1060,6 +1060,10 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/19154/index.m3u8
 #EXTINF:0 tvg-rec="0",ESPNU HD US
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/30067/index.m3u8
 #EXTINF:0 tvg-rec="0",ETV HD EE
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12017/index.m3u8
+#EXTINF:0 tvg-rec="0",ETV HD EE
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/12011/index.m3u8
+#EXTINF:0 tvg-rec="0",ETV HD EE
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14132/index.m3u8
 #EXTINF:0 tvg-rec="0",ETV+ EE
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/14133/index.m3u8
@@ -2543,8 +2547,6 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/20057/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/6245/index.m3u8
 #EXTINF:0 tvg-rec="0",Pro TV Chisinau HD MD
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/19452/index.m3u8
-#EXTINF:0 tvg-rec="0",Prokop TV Новогодний HD
-http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/16091/index.m3u8
 #EXTINF:0 tvg-rec="0",ProSieben FHD DE
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/31359/index.m3u8
 #EXTINF:0 tvg-rec="0",ProSieben Fun HD DE
@@ -5479,6 +5481,8 @@ http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/7053/index.m3u8
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/9217/index.m3u8
 #EXTINF:0 tvg-rec="3",CGTN Русский HD orig
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/9223/index.m3u8
+#EXTINF:0 tvg-rec="3",Channel 20 IL
+http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2335/index.m3u8
 #EXTINF:0 tvg-rec="3",Channel 9 HD IL
 http://463758a0.ucomist.net/iptv/V4ZVP6G52HVXDE/2374/index.m3u8
 #EXTINF:0 tvg-rec="3",Channel 9 IL

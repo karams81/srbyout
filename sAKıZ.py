@@ -9,7 +9,7 @@ YELLOW = "\033[93m"
 RESET = "\033[0m"
 
 # YAML dosyasını oku
-with open("sakız.yml", "r", encoding="utf-8") as f:
+with open("sAKıZ.yml", "r", encoding="utf-8") as f:
     data = yaml.safe_load(f)
 
 KANALLAR = data["kanallar"]
@@ -65,7 +65,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     playlist = generate_m3u(base_url, site, "Mozilla/5.0")
-    with open("sakız.m3u", "w", encoding="utf-8") as f:
+    with open("sAKıZ.m3u", "w", encoding="utf-8") as f:
         f.write(playlist)
 
-    print(f"{GREEN}[OK] Playlist oluşturuldu: sakız.m3u{RESET}")
+    print(f"{GREEN}[OK] Playlist oluşturuldu: sAKıZ.m3u{RESET}")
+

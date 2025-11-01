@@ -1,4 +1,4 @@
-name: Sakız M3U Generator
+name: sAKıZ M3U Generator
 
 on:
   schedule:
@@ -36,3 +36,4 @@ jobs:
           git add sAKıZ.m3u
           git commit -m "🔁 sakız.m3u otomatik güncelleme ($(date +'%Y-%m-%d %H:%M'))" || echo "Değişiklik yok"
           git push
+

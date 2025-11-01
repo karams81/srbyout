@@ -1,4 +1,4 @@
-playlist_name: sakız
+playlist_name: sAKıZ
 site_range:
   start: 1400
   end: 1954
@@ -96,3 +96,4 @@ channels:
   - name: Exxen Spor 8 HD
     tvg_id: ExxenSpor8.tr
     file: yayinex8.m3u8
+

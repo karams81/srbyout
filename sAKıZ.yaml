@@ -1,0 +1,98 @@
+playlist_name: sakız
+site_range:
+  start: 1400
+  end: 1954
+channels:
+  - name: Bein Sports 1 HD (VIP)
+    tvg_id: BeinSports1.tr
+    file: yayinzirve.m3u8
+  - name: Bein Sports 1 HD
+    tvg_id: BeinSports1.tr
+    file: yayin1.m3u8
+  - name: Bein Sports 2 HD
+    tvg_id: BeinSports2.tr
+    file: yayinb2.m3u8
+  - name: Bein Sports 3 HD
+    tvg_id: BeinSports3.tr
+    file: yayinb3.m3u8
+  - name: Bein Sports 4 HD
+    tvg_id: BeinSports4.tr
+    file: yayinb4.m3u8
+  - name: Bein Sports 5 HD
+    tvg_id: BeinSports5.tr
+    file: yayinb5.m3u8
+  - name: Bein Max 1 HD
+    tvg_id: BeinMax1.tr
+    file: yayinbm1.m3u8
+  - name: Bein Max 2 HD
+    tvg_id: BeinMax2.tr
+    file: yayinbm2.m3u8
+  - name: S Sport 1 HD
+    tvg_id: SSport1.tr
+    file: yayinss.m3u8
+  - name: S Sport 2 HD
+    tvg_id: SSport2.tr
+    file: yayinss2.m3u8
+  - name: S Sport Plus HD
+    tvg_id: SSportPlus.tr
+    file: yayinssp2.m3u8
+  - name: Tivibu Spor 1 HD
+    tvg_id: TivibuSpor1.tr
+    file: yayint1.m3u8
+  - name: Tivibu Spor 2 HD
+    tvg_id: TivibuSpor2.tr
+    file: yayint2.m3u8
+  - name: Tivibu Spor 3 HD
+    tvg_id: TivibuSpor3.tr
+    file: yayint3.m3u8
+  - name: Smart Spor 1 HD
+    tvg_id: SmartSpor1.tr
+    file: yayinsmarts.m3u8
+  - name: Smart Spor 2 HD
+    tvg_id: SmartSpor2.tr
+    file: yayinsms2.m3u8
+  - name: TRT Spor HD
+    tvg_id: TRTSpor.tr
+    file: yayintrtspor.m3u8
+  - name: TRT Spor Yıldız HD
+    tvg_id: TRTSporYildiz.tr
+    file: yayintrtspor2.m3u8
+  - name: A Spor HD
+    tvg_id: ASpor.tr
+    file: yayinas.m3u8
+  - name: ATV HD
+    tvg_id: ATV.tr
+    file: yayinatv.m3u8
+  - name: TV8 HD
+    tvg_id: TV8.tr
+    file: yayintv8.m3u8
+  - name: TV8.5 HD
+    tvg_id: TV85.tr
+    file: yayintv85.m3u8
+  - name: NBA TV HD
+    tvg_id: NBATV.tr
+    file: yayinnbatv.m3u8
+  - name: Exxen Spor 1 HD
+    tvg_id: ExxenSpor1.tr
+    file: yayinex1.m3u8
+  - name: Exxen Spor 2 HD
+    tvg_id: ExxenSpor2.tr
+    file: yayinex2.m3u8
+  - name: Exxen Spor 3 HD
+    tvg_id: ExxenSpor3.tr
+    file: yayinex3.m3u8
+  - name: Exxen Spor 4 HD
+    tvg_id: ExxenSpor4.tr
+    file: yayinex4.m3u8
+  - name: Exxen Spor 5 HD
+    tvg_id: ExxenSpor5.tr
+    file: yayinex5.m3u8
+  - name: Exxen Spor 6 HD
+    tvg_id: ExxenSpor6.tr
+    file: yayinex6.m3u8
+  - name: Exxen Spor 7 HD
+    tvg_id: ExxenSpor7.tr
+    file: yayinex7.m3u8
+  - name: Exxen Spor 8 HD
+    tvg_id: ExxenSpor8.tr
+    file: yayinex8.m3u8

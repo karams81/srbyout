@@ -1,7 +1,4 @@
-# streamed_selenium_m3u.py
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import time
+# streamed_simple.py
 
 TV_IDS = {
     "American Football": "NFL.Dummy.us",
@@ -14,50 +11,30 @@ TV_IDS = {
     "General": "General.Dummy.us"
 }
 
-# --- Embed sayfalarını buraya ekle ---
-MATCH_PAGES = [
+# --- Buraya hazır M3U8 linklerini ekle ---
+MATCHES = [
     {
-        "page_url": "https://streamed.pk/embed/football/xyz123",
         "title": "Indianapolis Colts vs Pittsburgh Steelers",
         "category": "American Football",
-        "logo": "https://streamed.pk/api/Logos/NFL.png"
-    }
+        "logo": "https://streamed.pk/api/Logos/NFL.png",
+        "m3u8": "https://lb9.strmd.top/secure/dShpNuOYDhhOoPeJVUdynvzbYKGifRPr/charlie/stream/indianapolis-colts-vs-pittsburgh-steelers-1629468383/1/playlist.m3u8"
+    },
+    # İstersen buraya başka maçları da ekleyebilirsin
 ]
-
-def get_m3u8_from_embed(url):
-    options = Options()
-    options.headless = True
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--log-level=3")
-    
-    driver = webdriver.Chrome(options=options)
-    try:
-        driver.get(url)
-        time.sleep(5)  # Sayfanın JS ile M3U8 linki yüklenmesi için bekle
-        page_source = driver.page_source
-        # .m3u8 linkini bul
-        import re
-        match = re.search(r'https://[^\'" >]+\.m3u8', page_source)
-        return match.group(0) if match else None
-    finally:
-        driver.quit()
 
 def generate_m3u(matches):
     content = ["#EXTM3U"]
     for m in matches:
-        m3u8 = get_m3u8_from_embed(m["page_url"])
-        if m3u8:
-            tv_id = TV_IDS.get(m["category"], "General.Dummy.us")
-            content.append(f'#EXTINF:-1 tvg-id="{tv_id}" tvg-name="{m["title"]}" tvg-logo="{m["logo"]}" group-title="{m["category"]}",{m["title"]}')
-            content.append(m3u8)
-            print(f"✅ Bulundu: {m['title']}")
-        else:
-            print(f"⚠️ M3U8 bulunamadı: {m['title']}")
+        tv_id = TV_IDS.get(m["category"], "General.Dummy.us")
+        content.append(
+            f'#EXTINF:-1 tvg-id="{tv_id}" tvg-name="{m["title"]}" tvg-logo="{m["logo"]}" group-title="{m["category"]}",{m["title"]}'
+        )
+        content.append(m["m3u8"])
+        print(f"✅ Eklendi: {m['title']}")
     return "\n".join(content)
 
 if __name__ == "__main__":
-    playlist = generate_m3u(MATCH_PAGES)
+    playlist = generate_m3u(MATCHES)
     with open("StreamedSU.m3u8", "w", encoding="utf-8") as f:
         f.write(playlist)
     print("🎉 Playlist oluşturuldu: StreamedSU.m3u8")

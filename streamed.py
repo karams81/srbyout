@@ -1,14 +1,25 @@
-# auto_m3u_builder.py
+# streamed_auto_m3u.py
 # Python 3
 import requests
 import re
 
-# Buraya maç sayfası URL'lerini ekle
+# --- Maç sayfalarını ve bilgilerini ekleyin ---
 MATCH_PAGES = [
-    "https://streamed.pk/embed/football/xyz123",  # örnek sayfa
-    "https://streamed.pk/embed/basketball/abc456"
+    {
+        "page_url": "https://streamed.pk/embed/football/xyz123",
+        "title": "Indianapolis Colts vs Pittsburgh Steelers",
+        "category": "American Football",
+        "logo": "https://streamed.pk/api/Logos/NFL.png"
+    },
+    {
+        "page_url": "https://streamed.pk/embed/basketball/abc456",
+        "title": "Los Angeles Lakers vs Miami Heat",
+        "category": "Basketball",
+        "logo": "https://streamed.pk/api/Logos/NBA.png"
+    }
 ]
 
+# --- TV ID mapping ---
 TV_IDS = {
     "American Football": "NFL.Dummy.us",
     "Football": "Soccer.Dummy.us",
@@ -20,11 +31,13 @@ TV_IDS = {
     "General": "General.Dummy.us"
 }
 
+# --- M3U8 linkini sayfa içeriğinden bul ---
 def find_m3u8_in_content(content):
     pattern = r'(https?://[^\'" ]+\.m3u8[^\'" ]*)'
     match = re.search(pattern, content)
     return match.group(1) if match else None
 
+# --- Embed sayfasından M3U8 çek ---
 def fetch_m3u8_from_page(url):
     headers = {
         "User-Agent": "Mozilla/5.0",
@@ -39,22 +52,26 @@ def fetch_m3u8_from_page(url):
         print(f"❌ Hata: {url} → {e}")
         return None
 
-def generate_m3u(urls):
+# --- M3U oluştur ---
+def generate_m3u(matches):
     content = ["#EXTM3U"]
-    for url in urls:
-        m3u8 = fetch_m3u8_from_page(url.get("page_url"))
+    for match in matches:
+        page_url = match.get("page_url")
+        title = match.get("title", "Untitled")
+        category = match.get("category", "General")
+        logo = match.get("logo", "")
+        tv_id = TV_IDS.get(category, "General.Dummy.us")
+
+        m3u8 = fetch_m3u8_from_page(page_url)
         if m3u8:
-            title = url.get("title", "Untitled")
-            category = url.get("category", "General")
-            logo = url.get("logo", "")
-            tv_id = TV_IDS.get(category, "General.Dummy.us")
             content.append(f'#EXTINF:-1 tvg-id="{tv_id}" tvg-name="{title}" tvg-logo="{logo}" group-title="{category}",{title}')
             content.append(m3u8)
             print(f"✅ Bulundu: {title}")
         else:
-            print(f"⚠️ M3U8 bulunamadı: {url.get('title', 'Untitled')}")
+            print(f"⚠️ M3U8 bulunamadı: {title}")
     return "\n".join(content)
 
+# --- Ana program ---
 if __name__ == "__main__":
     playlist = generate_m3u(MATCH_PAGES)
     with open("StreamedSU.m3u8", "w", encoding="utf-8") as f:

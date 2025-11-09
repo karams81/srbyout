@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-09 15:37:01 UTC
+# Güncelleme tarihi: 2025-11-09 16:21:11 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -274,6 +274,9 @@ http://45.164.151.197:8000/play/sky/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 https://tvjrflix.appsjr.pro/temporal/redirect.php?url=http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", LALIGA TV 🇬🇧
+https://s@storage.googleapis.com/iuytryfbcsfcw5/mux_video_ts/index-1.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",  Varzesh TV 🇸🇦
 https://lenz.splus.ir/PLTV/88888888/224/3221226845/index.m3u8

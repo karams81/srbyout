@@ -24,28 +24,28 @@ jobs:
         echo "# Güncelleme tarihi: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> yalcin.m3u
         echo "" >> yalcin.m3u
 
-        # --- Bölüm 1 ---
-        echo "#EXTINF:-1 group-title=\"Bölüm 1\", Kaynak: trgoalas.m3u" >> yalcin.m3u
+        # --- Türk Kanalları ---
+        echo "#EXTINF:-1 group-title=\"Türk Kanalları\", Kaynak: trgoalas.m3u" >> yalcin.m3u
         curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/trgoalas.m3u | \
-          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 1"/' >> yalcin.m3u
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Türk Kanalları"/' >> yalcin.m3u
         echo "" >> yalcin.m3u
 
-        # --- Bölüm 2 ---
-        echo "#EXTINF:-1 group-title=\"Bölüm 2\", Kaynak: NexaTV.m3u" >> yalcin.m3u
+        # --- NexaTV ---
+        echo "#EXTINF:-1 group-title=\"NexaTV\", Kaynak: NexaTV.m3u" >> yalcin.m3u
         curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/NexaTV.m3u | \
-          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 2"/' >> yalcin.m3u
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="NexaTV"/' >> yalcin.m3u
         echo "" >> yalcin.m3u
 
-        # --- Bölüm 3 ---
-        echo "#EXTINF:-1 group-title=\"Bölüm 3\", Kaynak: selcuk.m3u" >> yalcin.m3u
+        # --- Selçuk Yayınları ---
+        echo "#EXTINF:-1 group-title=\"Selçuk Yayınları\", Kaynak: selcuk.m3u" >> yalcin.m3u
         curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/selcuk.m3u | \
-          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 3"/' >> yalcin.m3u
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Selçuk Yayınları"/' >> yalcin.m3u
         echo "" >> yalcin.m3u
 
-        # --- Bölüm 4 ---
-        echo "#EXTINF:-1 group-title=\"Bölüm 4\", Kaynak: futbol.m3u" >> yalcin.m3u
+        # --- Rus Futbol Kanalları ---
+        echo "#EXTINF:-1 group-title=\"Rus Futbol Kanalları\", Kaynak: futbol.m3u" >> yalcin.m3u
         curl -s https://raw.githubusercontent.com/la22lo/sports/refs/heads/main/futbol.m3u | \
-          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 4"/' >> yalcin.m3u
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Rus Futbol Kanalları"/' >> yalcin.m3u
         echo "" >> yalcin.m3u
 
     - name: Commit and push changes

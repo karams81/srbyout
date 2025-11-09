@@ -14,30 +14,39 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Fetch and group playlist files
+    - name: Fetch and group playlist files as real M3U
       run: |
         # Eski dosyayı temizle
-        rm -f yalcin.txt
+        rm -f yalcin.m3u
 
-        # Tarih ve saat bilgisi ekle (UTC)
-        echo "===== Güncelleme tarihi: $(date -u '+%Y-%m-%d %H:%M:%S UTC') =====" >> yalcin.txt
-        echo -e "\n" >> yalcin.txt
+        # M3U başlık
+        echo "#EXTM3U" >> yalcin.m3u
+        echo "# Güncelleme tarihi: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> yalcin.m3u
+        echo "" >> yalcin.m3u
 
-        echo "===== BÖLÜM 1: trgoalas.m3u =====" >> yalcin.txt
-        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/trgoalas.m3u >> yalcin.txt
-        echo -e "\n\n" >> yalcin.txt
+        # --- Bölüm 1 ---
+        echo "#EXTINF:-1 group-title=\"Bölüm 1\", Kaynak: trgoalas.m3u" >> yalcin.m3u
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/trgoalas.m3u | \
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 1"/' >> yalcin.m3u
+        echo "" >> yalcin.m3u
 
-        echo "===== BÖLÜM 2: NexaTV.m3u =====" >> yalcin.txt
-        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/NexaTV.m3u >> yalcin.txt
-        echo -e "\n\n" >> yalcin.txt
+        # --- Bölüm 2 ---
+        echo "#EXTINF:-1 group-title=\"Bölüm 2\", Kaynak: NexaTV.m3u" >> yalcin.m3u
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/NexaTV.m3u | \
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 2"/' >> yalcin.m3u
+        echo "" >> yalcin.m3u
 
-        echo "===== BÖLÜM 3: selcuk.m3u =====" >> yalcin.txt
-        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/selcuk.m3u >> yalcin.txt
-        echo -e "\n\n" >> yalcin.txt
+        # --- Bölüm 3 ---
+        echo "#EXTINF:-1 group-title=\"Bölüm 3\", Kaynak: selcuk.m3u" >> yalcin.m3u
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/selcuk.m3u | \
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 3"/' >> yalcin.m3u
+        echo "" >> yalcin.m3u
 
-        echo "===== BÖLÜM 4: Rus.m3u =====" >> yalcin.txt
-        curl -s https://raw.githubusercontent.com/la22lo/sports/refs/heads/main/futbol.m3u >> yalcin.txt
-        echo -e "\n\n" >> yalcin.txt
+        # --- Bölüm 4 ---
+        echo "#EXTINF:-1 group-title=\"Bölüm 4\", Kaynak: futbol.m3u" >> yalcin.m3u
+        curl -s https://raw.githubusercontent.com/la22lo/sports/refs/heads/main/futbol.m3u | \
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Bölüm 4"/' >> yalcin.m3u
+        echo "" >> yalcin.m3u
 
     - name: Commit and push changes
       env:
@@ -48,11 +57,11 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
 
-        git add yalcin.txt
+        git add yalcin.m3u
         if git diff --cached --quiet; then
           echo "No changes to commit."
           exit 0
         fi
 
-        git commit -m "Auto-update yalcin.txt"
+        git commit -m "Auto-update yalcin.m3u"
         git push origin HEAD:${GITHUB_REF}

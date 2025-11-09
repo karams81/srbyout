@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-09 15:16:49 UTC
+# Güncelleme tarihi: 2025-11-09 15:37:01 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -220,7 +220,7 @@ https://dga1op10s1u3lep.b74349cb7c408e.click/live/selcukbeinsports4/playlist.m3u
 https://dga1op10s1u3lep.b74349cb7c408e.click/live/selcukbeinsports5/playlist.m3u8
 #EXTINF:-1 group-title="Selçuk Yayınları" tvg-id="beinmax1" tvg-name="BeIN Sports Max 1" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="Spor",BeIN Sports Max 1
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
-https://dga1op10s1u3lep.617cc29522c890.click/live/selcukbeinsportsmax1/playlist.m3u8
+https://dga1op10s1u3lep.b74349cb7c408e.click/live/selcukbeinsportsmax1/playlist.m3u8
 #EXTINF:-1 group-title="Selçuk Yayınları" tvg-id="beinmax2" tvg-name="BeIN Sports Max 2" tvg-logo="http://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="Spor",BeIN Sports Max 2
 #EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
 https://dga1op10s1u3lep.b74349cb7c408e.click/live/selcukbeinsportsmax2/playlist.m3u8
@@ -272,11 +272,14 @@ http://46.151.196.243:80/play/ZcGYC1mvTUxgtBD7K_MCNgjV2TY8doY3wUWCWHEdAbA
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 http://45.164.151.197:8000/play/sky/index.m3u8
 
-#EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
-http://origin.thetvapp.to/hls/espn-deportes/mono.m3u8
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
+https://tvjrflix.appsjr.pro/temporal/redirect.php?url=http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8
 
-#EXTINF:-1 group-title="Rus Futbol Kanalları", S Sport 1 🇹🇷
-https://dga1op10s1u3lep.617cc29522c890.click/live/selcukssport/playlist.m3u8
+#EXTINF:-1 group-title="Rus Futbol Kanalları",  Varzesh TV 🇸🇦
+https://lenz.splus.ir/PLTV/88888888/224/3221226845/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",  Varzesh TV 🇸🇦
+https://balance.footballii.ir/hls2/varzeshtv.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
 http://ott.watch/stream/D3FX33QMIH1/142.m3u8
@@ -337,6 +340,9 @@ http://91.201.172.14:35006/
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Digi Sport 2 🇷🇴
 http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2522/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", S Sport 1 🇹🇷
+https://dga1op10s1u3lep.617cc29522c890.click/live/selcukssport/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", IDMANTV 🇹🇷
 https://str2.yodacdn.net/idman_300_to_small/tracks-v1a1/mono.m3u8

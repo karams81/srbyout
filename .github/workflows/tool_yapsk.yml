@@ -1,0 +1,58 @@
+name: "Update"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'  # Her 30 dakikada bir (UTC)
+
+jobs:
+  updater:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Fetch and group playlist files
+      run: |
+        # Eski dosyayı temizle
+        rm -f yalcin.txt
+
+        # Tarih ve saat bilgisi ekle (UTC)
+        echo "===== Güncelleme tarihi: $(date -u '+%Y-%m-%d %H:%M:%S UTC') =====" >> yalcin.txt
+        echo -e "\n" >> yalcin.txt
+
+        echo "===== BÖLÜM 1: trgoalas.m3u =====" >> yalcin.txt
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/trgoalas.m3u >> yalcin.txt
+        echo -e "\n\n" >> yalcin.txt
+
+        echo "===== BÖLÜM 2: NexaTV.m3u =====" >> yalcin.txt
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/NexaTV.m3u >> yalcin.txt
+        echo -e "\n\n" >> yalcin.txt
+
+        echo "===== BÖLÜM 3: selcuk.m3u =====" >> yalcin.txt
+        curl -s https://raw.githubusercontent.com/karams81/voddensrb/main/selcuk.m3u >> yalcin.txt
+        echo -e "\n\n" >> yalcin.txt
+
+        echo "===== BÖLÜM 4: Rus.m3u =====" >> yalcin.txt
+        curl -s https://raw.githubusercontent.com/la22lo/sports/main/Rus.m3u >> yalcin.txt
+        echo -e "\n\n" >> yalcin.txt
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      run: |
+        set -euo pipefail
+
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        git add yalcin.txt
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+          exit 0
+        fi
+
+        git commit -m "Auto-update yalcin.txt"
+        git push origin HEAD:${GITHUB_REF}

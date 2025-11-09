@@ -36,7 +36,7 @@ jobs:
         echo -e "\n\n" >> yalcin.txt
 
         echo "===== BÖLÜM 4: Rus.m3u =====" >> yalcin.txt
-        curl -s https://raw.githubusercontent.com/la22lo/sports/main/Rus.m3u >> yalcin.txt
+        curl -s https://raw.githubusercontent.com/la22lo/sports/refs/heads/main/futbol.m3u >> yalcin.txt
         echo -e "\n\n" >> yalcin.txt
 
     - name: Commit and push changes

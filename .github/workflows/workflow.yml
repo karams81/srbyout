@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # <-- tüm geçmişi klonla (önemli!)
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -27,10 +29,15 @@ jobs:
       - name: Run metv script
         run: python metv.py
 
-      - name: Commit metv folder to repo
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add metv/
           git diff --cached --quiet || git commit -m "Update metv folder"
-          git push origin main
+          
+          # Uzak branch'teki değişiklikleri çek ve rebase et
+          git pull origin main --rebase || true
+          
+          # Push işlemi (gerekirse force kullan)
+          git push origin main || git push origin main --force

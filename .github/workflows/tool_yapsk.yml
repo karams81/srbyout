@@ -48,6 +48,12 @@ jobs:
           sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Rus Futbol Kanalları"/' >> yalcin.m3u
         echo "" >> yalcin.m3u
 
+        # --- Boss ---
+        echo "#EXTINF:-1 group-title=\"Boss\", Kaynak: bossh.m3u" >> yalcin.m3u
+        curl -s https://raw.githubusercontent.com/karams81/srbyout/refs/heads/main/bossh.m3u | \
+          sed 's/^#EXTINF:-1/#EXTINF:-1 group-title="Boss"/' >> yalcin.m3u
+        echo "" >> yalcin.m3u
+
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

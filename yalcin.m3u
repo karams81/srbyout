@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-14 22:41:00 UTC
+# Güncelleme tarihi: 2025-11-14 23:18:15 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -355,6 +355,9 @@ http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/156415
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Premier Sport 2 UK 🇬🇧
 http://line.extraott-iptv.com:88/2755789541/1300714776/189891
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 4 🇧🇬
+http://85.11.144.6:6060/play/a012/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 4 🇧🇬
 http://213.169.39.30:5130
@@ -842,6 +845,9 @@ http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 2 HD 🇨🇿
 http://88.212.15.19/live/test_sport_2/playlist.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 2 HD 🇨🇿
+http://185.98.211.8:81/sport2/index.m3u8?token=test
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları",  Arena_Sport 🇨🇿
 http://178.23.88.55/Arena_sport/index.m3u8
 
@@ -860,6 +866,9 @@ http://77.46.130.252:99/maxsport1
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
 http://92.247.25.42:11176/
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
+http://85.11.144.6:6060/play/a05l/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 2 🇧🇬
 http://213.169.39.30:5140
 
@@ -868,6 +877,9 @@ http://77.46.130.252:99/maxsport2
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 2 🇧🇬
 http://92.247.25.42:11177/
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 2 🇧🇬
+http://85.11.144.6:6060/play/a01i/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 3 🇧🇬
 http://213.169.39.30:5142
@@ -878,6 +890,9 @@ http://77.46.130.252:99/maxsport3
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 3 🇧🇬
 http://92.247.25.42:11178/
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 3 🇧🇬
+http://85.11.144.6:6060/play/a09y/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 4 🇧🇬
 http://213.169.39.30:5130
 
@@ -886,6 +901,9 @@ http://77.46.130.252:99/maxsport4
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 4 🇧🇬
 http://92.247.25.42:11173/
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 4 🇧🇬
+http://85.11.144.6:6060/play/a012/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport 1 🇧🇬
 http://92.247.25.42:11170/
@@ -898,6 +916,9 @@ http://92.247.25.42:11171/
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Nova Sport 🇧🇬
 http://213.169.39.30:5102
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Nova Sport 🇧🇬
+http://85.11.144.6:6060/play/a09g/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport 1 🇧🇬
 http://213.169.39.30:5134
@@ -1201,6 +1222,15 @@ https://vs1759.vcdn.biz/519f03ad03fe54e0d772b98cf1be2087_megogo/live/hls/b/4000/
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Q Sport Kyrgyzstan HD 🇰🇬
 http://95.85.109.219:7000/play/a05u
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", BEIN 1 TRUE VISIONS 🇮🇩
+https://ww.dooballfree.vip/live/bein1/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", BEIN 2 TRUE VISIONS 🇮🇩
+https://ww.dooballfree.vip/live/bein2/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", BEIN 3 TRUE VISIONS 🇮🇩
+https://ww.dooballfree.vip/live/bein3/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Astro Football HD 🇹🇭
 https://smart.bengaldigital.live/AstroFootball/index.m3u8

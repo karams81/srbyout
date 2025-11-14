@@ -4,8 +4,8 @@ from httpx import Client
 
 class JustSportHDManager:
     def __init__(self):
-        self.httpx = Client(timeout=10, verify=True)  # SSL doğrulamasını açtık
-        self.USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ..."
+        self.httpx = Client(timeout=10, verify=True)  # SSL doğrulaması açık
+        self.USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
         self.CHANNELS = [
             {"name": "Bein Sports 1", "logo": "bein1.png", "path": "bein1.m3u8"},
             {"name": "Bein Sports 2", "logo": "bein2.png", "path": "bein2.m3u8"},
@@ -20,7 +20,6 @@ class JustSportHDManager:
             {"name": "Tivibu Spor 1", "logo": "tivibuspor.png", "path": "tivibu1.m3u8"},
             {"name": "Tivibu Spor 2", "logo": "tivibuspor2.png", "path": "tivibu2.m3u8"},
             {"name": "Tivibu Spor 3", "logo": "tivibuspor3.png", "path": "tivibu3.m3u8"},
-            # ... diğer kanallar
         ]
 
     def find_working_domain(self, start=40, end=60):
@@ -30,28 +29,33 @@ class JustSportHDManager:
             try:
                 r = self.httpx.get(url, headers=headers)
                 if r.status_code == 200 and "JustSportHD" in r.text:
-                    print(f"Çalışan domain bulundu: {url}")
+                    print(f"✅ Çalışan domain bulundu: {url}")
                     return r.text, url
             except Exception as e:
-                print(f"Deneme {i} başarısız: {e}")
-            time.sleep(0.5)  # İstekler arasında kısa bekleme
-        print("Domain bulunamadı.")
+                print(f"❌ Deneme {i} başarısız: {e}")
+            time.sleep(0.3)
+        print("⚠️ Domain bulunamadı.")
         return None, None
 
     def find_stream_domain(self, html):
+        # Stream domaini regex ile arıyoruz, ama bulamazsak None dönecek
         match = re.search(r'https?://(streamnet[0-9]+\.xyz)', html)
-        return f"https://{match.group(1)}" if match else None
+        if match:
+            return f"https://{match.group(1)}"
+        else:
+            print("⚠️ Stream domain bulunamadı. M3U manuel düzenlemeye hazır olacak.")
+            return None
 
     def generate_m3u(self):
         html, referer_url = self.find_working_domain()
         if not html or not referer_url:
-            print("M3U oluşturulamadı: Domain yok.")
+            print("❌ Domain bulunamadı, M3U oluşturulamadı.")
             return ""
 
         stream_base_url = self.find_stream_domain(html)
         if not stream_base_url:
-            print("Yayın domaini bulunamadı.")
-            return ""
+            # Stream domain yoksa, kullanıcıya uyarı verecek ve default placeholder kullanacak
+            stream_base_url = "https://STREAM_DOMAIN_BULUNAMADI"  
 
         m3u = ['#EXTM3U x-tvg-url=""\n']
         for channel in self.CHANNELS:
@@ -65,14 +69,16 @@ class JustSportHDManager:
             m3u.append(stream_url)
 
         content = "\n".join(m3u)
+
         try:
-            with open("justsporthd45.m3u", "w", encoding="utf-8") as f:
+            with open("justsporthd_manual.m3u", "w", encoding="utf-8") as f:
                 f.write(content if content.strip() else '#EXTM3U\n')
-            print(f"M3U başarıyla oluşturuldu. Uzunluk: {len(content)}")
+            print(f"✅ M3U oluşturuldu: justsporthd_manual.m3u (İçerik uzunluğu: {len(content)})")
         except Exception as e:
-            print(f"Dosya yazılamadı: {e}")
+            print(f"❌ Dosya yazılamadı: {e}")
 
         return content
+
 
 if __name__ == "__main__":
     manager = JustSportHDManager()

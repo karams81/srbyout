@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-14 20:22:21 UTC
+# Güncelleme tarihi: 2025-11-14 20:42:05 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -259,6 +259,9 @@ https://dga1op10s1u3lep.eaf7037ecd540a.click/live/selcukeurosport1/playlist.m3u8
 https://dga1op10s1u3lep.eaf7037ecd540a.click/live/selcukeurosport2/playlist.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Kaynak: futbol.m3u
 #EXTM3U
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", M HYP 🇪🇸
+https://s@broadcasthub.click/hls/CJ9AwYimdyUo/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Bein MAX 6 🇫🇷
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/85338

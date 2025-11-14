@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-14 15:40:14 UTC
+# Güncelleme tarihi: 2025-11-14 16:26:13 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -305,6 +305,12 @@ http://cdntv.online/low/9mlxywika2/56.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
 http://188.191.160.238:7780/udp/239.195.3.17:1234
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
+http://cdntv.online/low/9mlxywika2/56.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
+http://195.191.208.5:8087/udp/238.9.1.15:1234
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SOLH SPORT 🇦🇫
 http://cors.tundracast.com:2000/https://wo.cma.footballii.ir/hls2/solh.m3u8
 
@@ -555,6 +561,18 @@ http://cdntv.online/low/9mlxywika2/1021.m3u8
 http://cdntv.online/low/9mlxywika2/1022.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
+http://tv.tuva.ru/machtv/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
+http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
+http://195.191.208.5:8087/udp/238.9.1.141:1234
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
+http://178.163.121.127:4022/udp/234.0.0.204:2000
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
 http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
@@ -568,6 +586,9 @@ http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! Футбол 1 HD 🇷🇺
 http://ott.watch/stream/D3FX33QMIH1/130.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 1HD 🇷🇺
+http://cdntv.online/low/9mlxywika2/55.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! Футбол 2 HD 🇷🇺
 http://ott.watch/stream/D3FX33QMIH1/142.m3u8
@@ -593,6 +614,12 @@ http://188.191.160.238:7780/udp/239.195.3.17:1234
 #EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
 http://cdntv.online/low/9mlxywika2/56.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
+http://cdntv.online/low/9mlxywika2/56.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 2HD 🇷🇺
+http://195.191.208.5:8087/udp/238.9.1.15:1234
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! Футбол 3 HD 🇷🇺
 http://185.57.68.33:8091/110/playlist.m3u8
 
@@ -605,6 +632,12 @@ http://cdntv.online/low/9mlxywika2/57.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Футбол 3 (SD) 🇷🇺
 http://185.57.68.33:80/110/index.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 3HD 🇷🇺
+http://cdntv.online/low/9mlxywika2/57.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ФУТБOЛ 3HD 🇷🇺
+http://195.191.208.5:8087/udp/238.9.1.2:1234
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 4 HD 🇷🇺
 http://46.149.191.217:9010/play/a019
 
@@ -613,6 +646,9 @@ http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SETANTA SPORT 1 🇷🇺
 http://95.85.109.219:7000/play/a067
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", МАТЧ! ИГРА 🇷🇺
+http://195.191.208.5:8087/udp/238.9.1.12:1234
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SETANTA SPORT 1 HD 🇺🇦
 http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
@@ -1133,6 +1169,15 @@ https://vs1759.vcdn.biz/519f03ad03fe54e0d772b98cf1be2087_megogo/live/hls/b/4000/
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Q Sport Kyrgyzstan HD 🇰🇬
 http://95.85.109.219:7000/play/a05u
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Astro Football HD 🇹🇭
+https://smart.bengaldigital.live/AstroFootball/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", True Football 2 HD Thailand 🇹🇭
+https://ww.dooballfree.vip/live/tsp2/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", True Football 7 HD Thailand 🇹🇭
+https://ww.dooballfree.vip/live/tsp7/playlist.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları",SPORTS TV 🇹🇷
 http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
 
@@ -1150,6 +1195,9 @@ https://bit.ly/48XfUCc?profile=inspirationFreetv.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT ITALIA 🇮🇹
 https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/amRdirect/ads_pod_type=playerpage_midroll&ads_env=prod&ads_ppid=&ads_rtvid=271861&ads_streaming_id=4f185419-74f6-4564-8ea9-4cdc60746e2f&ads_amagi_channel=781&ads_device_type=web&ads_device_model=&ads_device_year=&ads_player_width=&ads_rtv_content_language=ita&ads_market=it&ads_rtv_content_id=3741&ads_device_make=&ads_user_type=visitor&ads_content_classification=6&ads_gdpr_consent=&ads_device_lmt=1&ads_player_height=&uid=1gnmqg5gu-qsvc-bfo-gaq3-3dgjgexshpe/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/1920x1080_4540800/chunklist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", TR Sport (480p) 🇮🇹
+https://livetr.teleromagna.it/mia/live/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", INFOSPORT 🇫🇷 
 http://212.102.60.80/Infosport/index.m3u8

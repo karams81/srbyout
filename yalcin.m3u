@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-15 19:37:09 UTC
+# Güncelleme tarihi: 2025-11-15 20:19:33 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -296,6 +296,9 @@ https://goldvod.org/live/hpgdisco/123456/196.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", IDMANTV 🇹🇷
 http://de.online24.pm/play/439/0E5BF0B5A9755BD/video.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SUPER SPORTS LA LIGA 🇿🇦
+http://145.239.5.177:80/565/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
 http://104.243.40.13:8989/279426_.m3u8
 
@@ -310,6 +313,12 @@ http://45.164.151.197:8000/play/sky/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 https://tvjrflix.appsjr.pro/temporal/redirect.php?url=http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler2 TV 🇭🇺
+http://46.149.191.217:9021/play/a029
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler2 TV 🇭🇺
+http://46.149.191.217:9021/play/a02d
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", LALIGA TV 🇬🇧
 https://s@storage.googleapis.com/iuytryfbcsfcw5/mux_video_ts/index-1.m3u8
@@ -493,6 +502,21 @@ http://145.239.5.177/559/mpegts
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", BEIN 3 🇫🇷
 http://5.9.119.146:8883/sf1_bein_hd3_fr/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Bein Sport 1 🇫🇷
+http://99.27.51.147:8080/BeinSport/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Bein Sport 1 🇫🇷
+http://145.239.5.177:80/557/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Bein Sport 2 🇫🇷
+http://145.239.5.177:80/558/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Bein Sport 3 🇫🇷
+http://99.27.51.147:8080/BeinSport3/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Bein Sport 3 🇫🇷
+http://145.239.5.177:80/559/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Bein FR 1 🇫🇷
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/156415
@@ -716,6 +740,21 @@ https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Беларусь 5 🇧🇾
 http://cdntv.online/low/9mlxywika2/778.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Беларусь 5 🇧🇾
+http://de.online24.pm/play/1467/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Go3 Sport 1 HD 🇱🇹
+http://de.online24.pm/play/6709/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Go3 Sport 2 HD 🇱🇹
+http://de.online24.pm/play/6710/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Go3 Sport 3 HD 🇱🇹
+http://de.online24.pm/play/6711/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Go3 Sport Open HD 🇱🇹
+http://de.online24.pm/play/6712/0E5BF0B5A9755BD/video.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları",Arena_Sport P1 🇷🇸
 https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8
 
@@ -866,6 +905,72 @@ http://178.23.88.55/Sport1/index.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Eurosport_2 🇨🇿
 http://178.23.88.55/Eurosport_2/index.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları" ,Nova Sport 1 🇨🇿
+http://185.188.188.237:5000/live/novasport1/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 2 🇨🇿
+http://185.188.188.237:5000/live/novasport2/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 3 🇨🇿
+http://185.188.188.237:5000/live/novasport3/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 4 🇨🇿
+http://185.188.188.237:5000/live/novasport4/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 5 🇨🇿
+http://185.188.188.237:5000/live/novasport5/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 5 SK 🇸🇰
+http://185.236.230.212:9982/play/a09w
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 5 🇨🇿
+http://116.202.237.33:8080/NS5/tracks-v1a1a2a3l1l2/mono.m3u8?token=ef1c6f27da4b04de8c97b52b9255617b
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 6 🇨🇿
+http://116.202.237.33:8080/NS6/tracks-v1a1a2a3l1l2/mono.m3u8?token=ef1c6f27da4b04de8c97b52b9255617b
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 1 HD 🇨🇿
+https://176.116.105.82/Nova_Sport1_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 2 SK HD 🇸🇰
+https://176.116.105.82/NovaSport2_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 3 SK HD 🇸🇰
+https://176.116.105.82/NovaSport3_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 4 SK HD 🇸🇰
+https://176.116.105.82/NovaSport4_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 5 SK HD 🇸🇰
+https://176.116.105.82/NovaSport5_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Nova Sport 6 HD 🇨🇿
+https://176.116.105.82/NovaSport6_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",CANAL+ Sport 🇨🇿
+http://gr.seetv.cc/play/1135/FB4F94DA00C3BE0/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",CANAL+ Sport 🇸🇰
+http://gr.seetv.cc/play/1136/FB4F94DA00C3BE0/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",CANAL+ Sport 2 🇸🇰
+http://gr.seetv.cc/play/1137/FB4F94DA00C3BE0/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", ARENA SPORT 1 🇨🇿
+http://88.212.15.19/live/test_arenasport/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", ARENA SPORT 2 🇨🇿
+http://88.212.15.19/live/test_arenasport_dva/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", ONEPLAY 1 🇨🇿
+http://185.112.249.46:9981/stream/channelid/177253733?profile=pass
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", ONEPLAY 2 🇨🇿
+http://185.112.249.46:9981/stream/channelid/1716506983?profile=pass
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", ONEPLAY 3 🇨🇿
+http://185.112.249.46:9981/stream/channelid/1597775099?profile=pass
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
 http://213.169.39.30:5138
 
@@ -922,6 +1027,15 @@ http://92.247.25.42:11172/
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport 3 🇧🇬
 http://92.247.25.42:11171/
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport HD 🇧🇬
+http://de.online24.pm/play/51002/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport 2 HD 🇧🇬
+http://de.online24.pm/play/51003/0E5BF0B5A9755BD/video.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Diema Sport 3 HD 🇧🇬
+http://de.online24.pm/play/51004/0E5BF0B5A9755BD/video.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Nova Sport 🇧🇬
 http://213.169.39.30:5102
@@ -994,6 +1108,18 @@ http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2560/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", ZIGGO SPORT 6 HD 🇳🇱
 http://185.236.230.212:9982/play/a09a
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler1 TV 🇭🇺
+http://46.149.191.217:9003/play/a01p
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler2 TV 🇭🇺
+http://46.149.191.217:9021/play/a029
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler2 TV 🇭🇺
+http://46.149.191.217:9021/play/a02d
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", M4 Sport 🇭🇺
+http://46.149.191.217:9010/play/a017
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", 4Football 🇸🇪
 http://trxad.top:80/play/live.php?mac=00:1E:B8:C0:dD:25&stream=294054&extension=ts&play_token=dKKpb8gzTG
@@ -1259,6 +1385,42 @@ http://103.240.44.26/Astro-Cricket/index.fmp4.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SONY TEN 1 🇮🇳
 http://103.240.44.26/Sony-Ten-1-HD/index.fmp4.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Tivibu Spor 1 🇹🇷
+http://65.108.239.207/t1/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Tivibu Spor 2 🇹🇷
+http://65.108.239.207/t2/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Tivibu Spor 3 🇹🇷
+http://65.108.239.207/t3/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",Tivibu Spor 4 🇹🇷
+http://65.108.239.207/t4/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 1 🇹🇷
+http://65.108.239.207/tabi1/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 2 🇹🇷
+http://65.108.239.207/tabi2/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 3 🇹🇷
+http://65.108.239.207/tabi3/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 4 🇹🇷
+http://65.108.239.207/tabi4/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 5 🇹🇷
+http://65.108.239.207/tabi5/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",tabii sport 6 🇹🇷
+http://65.108.239.207/tabi6/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",smart1 🇹🇷
+http://65.108.239.207/smart1/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",smart2 🇹🇷
+http://65.108.239.207/smart2/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları",SPORTS TV 🇹🇷
 http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
 
@@ -1315,6 +1477,12 @@ http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",KTV SPORTS 🇮🇳
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", FOX SPORT 🇮🇳 
+https://foxenglish.pages.dev/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", FOX SPORT 🇮🇳 
+https://hugh.cdn.rumble.cloud/live/t5qc33px/slot-89/ne5u-izq9/chunklist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Futbol TV 🇹🇭
 https://vod.splay.uz/live_splay/original/FutbolTV/tracks-v1a1/mono.m3u8
@@ -1493,6 +1661,9 @@ http://213.169.39.30:5210
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 http://38gb.pro/live/1100788991/14811/197962.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", TNT SPORT 3 🇬🇧
+http://gr.seetv.cc/play/934/FB4F94DA00C3BE0/video.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", DAZN La Liga 🇪🇸
 http://38gb.pro/live/1100788991/14811/197903.m3u8

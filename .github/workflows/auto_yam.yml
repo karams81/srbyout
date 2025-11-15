@@ -1,0 +1,36 @@
+name: Auto M3U Generator
+
+on:
+  push:           # Depoya push yapıldığında çalışır
+  workflow_dispatch:  # Manuel tetikleme
+  schedule:
+    - cron: "0 */6 * * *"   # Her 6 saatte bir otomatik çalıştır
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Kodu al
+      uses: actions/checkout@v3
+
+    - name: 🐍 Python Kur
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: 📦 Gereksinimleri yükle
+      run: |
+        pip install requests
+
+    - name: 🚀 M3U tarayıcıyı çalıştır
+      run: |
+        python auto_m3u_scanner.py
+
+    - name: 📤 Üretilen playlist.m3u'yu commitle
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add playlist.m3u
+        git commit -m "Auto update playlist.m3u" || echo "No changes"
+        git push

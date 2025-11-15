@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-15 07:36:42 UTC
+# Güncelleme tarihi: 2025-11-15 08:23:34 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -373,6 +373,9 @@ http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2522/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", S Sport 1 🇹🇷
 https://dga1op10s1u3lep.617cc29522c890.click/live/selcukssport/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", S Sport 2 🇹🇷
+http://65.108.239.207/ss2/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Беларусь 5 🇧🇾
 http://cdntv.online/low/9mlxywika2/778.m3u8

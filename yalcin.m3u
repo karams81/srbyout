@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-15 22:15:01 UTC
+# Güncelleme tarihi: 2025-11-15 22:38:30 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -514,6 +514,9 @@ http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142752
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",BEIN 9 🇶🇦
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142734
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", beIN4k 🇶🇦
+https://7pal.short.gp/bein-uhd
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", BEIN 1 🇫🇷
 http://145.239.5.177/557/mpegts

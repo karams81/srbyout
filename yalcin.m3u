@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-15 09:37:42 UTC
+# Güncelleme tarihi: 2025-11-15 10:18:56 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -292,6 +292,9 @@ https://str2.yodacdn.net/idman_300_to_small/tracks-v1a1/mono.m3u8?token=7b223154
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", IDMANTV 🇹🇷
 https://goldvod.org/live/hpgdisco/123456/196.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", IDMANTV 🇹🇷
+http://de.online24.pm/play/439/0E5BF0B5A9755BD/video.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
 http://104.243.40.13:8989/279426_.m3u8
@@ -796,6 +799,9 @@ http://185.166.252.230/MaxSport1/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAXSPORT_1 🇭🇷
 http://23.88.66.93/MAXSPORT_1/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAXSPORT_1 🇭🇷
+http://23.88.66.93/Eurosport1/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAXSPORT_2 🇭🇷
 http://185.166.252.230/MaxSport2/index.m3u8

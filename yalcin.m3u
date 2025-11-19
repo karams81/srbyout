@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-19 19:38:02 UTC
+# Güncelleme tarihi: 2025-11-19 20:19:48 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -317,6 +317,9 @@ https://ab.footballii.ir/hls2/bein2_src.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", beIN SPORTS 2 🇶🇦
 https://ab.footballii.ir/hls2/bein2_low.m3u8 
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", beIN SPORTS 2 🇶🇦
+https://balance.footballii.ir/hls2/bein2.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 http://190.92.10.66:4000/play/a001/index.m3u8
 
@@ -367,6 +370,9 @@ https://ab.footballii.ir/hls2/bein1_src.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", beIN SPORTS 1 🇶🇦
 https://ab.footballii.ir/hls2/bein1_low.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", beIN SPORTS 1 🇶🇦
+https://balance.footballii.ir/hls2/bein1.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Матч! 🇷🇺
 http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
@@ -460,6 +466,9 @@ http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142756
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",BEIN 3 🇶🇦
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142757
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",BEIN 3 🇶🇦
+https://balance.footballii.ir/hls2/bein3.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",BEIN 4 🇶🇦
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142758

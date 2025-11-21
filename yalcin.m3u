@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-21 15:37:13 UTC
+# Güncelleme tarihi: 2025-11-21 16:25:28 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -307,6 +307,9 @@ http://46.151.196.243:80/play/ZcGYC1mvTUxgtBD7K_MCNgjV2TY8doY3wUWCWHEdAbA
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
 https://tvjrflix.appsjr.pro/temporal/redirect.php?url=http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", VIX LALIGA 🇲🇽
+http://tv.zapping.life:8080/abelardo2020/ES4G1y3eXX/9601
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Spiler2 TV 🇭🇺
 http://46.149.191.217:9021/play/a029
@@ -1148,6 +1151,12 @@ http://92.247.25.42:11176/
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
 http://85.11.144.6:6060/play/a05l/index.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
+https://s@broadcasthub.click/hls/d4wCTO7I07xH/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 1 🇧🇬
+https://broadcasthub.click/hls/d4wCTO7I07xH/index.m3u8?st=ckC2N92iV3kAgnxDYT1CJA&e=1763674107
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 2 🇧🇬
 http://213.169.39.30:5140
 
@@ -1273,6 +1282,9 @@ http://46.149.191.217:9010/play/a017
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", M4 sport 🇭🇺
 http://dvr1.kablova.tv/M4/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", NOVA SPORT 5 🇬🇷
+https://broadcasthub.click/hls/fiVIihmSW94P/index.m3u8?st=c3ofcIGWn_tyvfu8fhKqrw&e=1763673960
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", GP 🇩🇪
 https://s6.hopslan.com/servus1/index.m3u8
@@ -1426,6 +1438,9 @@ http://190.61.116.105:8002/play/a0gh/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", TIGO SPORTS 🇧🇴
 http://38.159.227.123:8000/play/a0a7/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", TIGO SPORTS 🇧🇴
+http://201.174.175.3:8000/play/a0u0/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",  TIGO SPORTS 🇭🇳
 http://45.190.185.204:8990/play/a0ep/index.m3u8
@@ -1624,6 +1639,9 @@ https://ww.dooballfree.vip/live/tsp7/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", T Sports HD 🇧🇩 
 http://103.240.44.26/T-Sports-HD/index.fmp4.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", T Sports HD 🇧🇩 
+https://live.matribhumitv.com/matribhumi-sports/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Astro Cricket Sports HD 🇧🇩 
 http://103.240.44.26/Astro-Cricket/index.fmp4.m3u8

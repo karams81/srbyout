@@ -1,131 +1,131 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-22 14:39:06 UTC
+# Güncelleme tarihi: 2025-11-22 15:17:40 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD (VIP)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinzirve.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",Bein Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayin1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports2.tr" tvg-name="Bein Sports 2 HD",Bein Sports 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinb2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports3.tr" tvg-name="Bein Sports 3 HD",Bein Sports 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinb3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports4.tr" tvg-name="Bein Sports 4 HD",Bein Sports 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinb4.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports5.tr" tvg-name="Bein Sports 5 HD",Bein Sports 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinb5.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinMax1.tr" tvg-name="Bein Max 1 HD",Bein Max 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinbm1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinMax2.tr" tvg-name="Bein Max 2 HD",Bein Max 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinbm2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSport1.tr" tvg-name="S Sport 1 HD",S Sport 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinss.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSport2.tr" tvg-name="S Sport 2 HD",S Sport 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinss2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSportPlus.tr" tvg-name="S Sport Plus HD",S Sport Plus HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinssp2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor1.tr" tvg-name="Tivibu Spor 1 HD",Tivibu Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayint1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",Tivibu Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayint2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor3.tr" tvg-name="Tivibu Spor 3 HD",Tivibu Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayint3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SmartSpor1.tr" tvg-name="Smart Spor 1 HD",Smart Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinsmarts.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SmartSpor2.tr" tvg-name="Smart Spor 2 HD",Smart Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinsms2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TRTSpor.tr" tvg-name="TRT Spor HD",TRT Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayintrtspor.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız HD",TRT Spor Yıldız HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayintrtspor2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ASpor.tr" tvg-name="A Spor HD",A Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinas.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ATV.tr" tvg-name="ATV HD",ATV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinatv.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TV8.tr" tvg-name="TV8 HD",TV8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayintv8.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TV85.tr" tvg-name="TV8.5 HD",TV8.5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayintv85.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="NBATV.tr" tvg-name="NBA TV HD",NBA TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinnbatv.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor1.tr" tvg-name="Exxen Spor 1 HD",Exxen Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor2.tr" tvg-name="Exxen Spor 2 HD",Exxen Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor3.tr" tvg-name="Exxen Spor 3 HD",Exxen Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor4.tr" tvg-name="Exxen Spor 4 HD",Exxen Spor 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex4.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor5.tr" tvg-name="Exxen Spor 5 HD",Exxen Spor 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex5.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor6.tr" tvg-name="Exxen Spor 6 HD",Exxen Spor 6 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex6.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor7.tr" tvg-name="Exxen Spor 7 HD",Exxen Spor 7 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex7.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor8.tr" tvg-name="Exxen Spor 8 HD",Exxen Spor 8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://trgoals1459.xyz/
+#EXTVLCOPT:http-referrer=https://trgoals1460.xyz/
 https://nine.04bf112a615942b29.sbs/yayinex8.m3u8
 #EXTINF:-1 group-title="NexaTV", Kaynak: NexaTV.m3u
 #EXTM3U
@@ -1967,131 +1967,131 @@ http://38gb.pro/live/1100788991/14811/197904.m3u8
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/777/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/777/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/778/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/778/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 3
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/779/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/779/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 4
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/780/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/780/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Max 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/781/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/781/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Max 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/782/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/782/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 5
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/786/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/786/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", S Sport
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/763/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/763/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Spor Smart
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/610/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/610/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", CBC Sport
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1010/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1010/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", İDMAN TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1020/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1020/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", İCTİMAİ TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1030/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1030/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TV8,5
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/69/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/69/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", A Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/73/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/73/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", HT Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/74/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/74/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Tivibu Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/75/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/75/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", FB TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/76/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/76/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TRT Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/77/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/77/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Haber
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/78/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/78/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TRT Spor Yıldız
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/79/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/79/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", tabii Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1080/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1080/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Ekol Sports
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/46/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/46/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Eurosport 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/631/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/631/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Eurosport 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/641/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/641/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", sportstv
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/464/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/464/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", NBA TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b6c2c72cccbb79c170.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/608/playlist.m3u8
+https://56caddbc6934b0d95a.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/608/playlist.m3u8
 
 

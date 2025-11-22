@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-22 16:43:56 UTC
+# Güncelleme tarihi: 2025-11-22 17:15:56 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -869,8 +869,38 @@ https://tva.in.ua/live/susp-sport.m3u8?key=fas-tv.com
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 1 🇬🇪
 http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 1 🇬🇪
+http://2.57.217.85:8000/play/a09e/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 1 🇬🇪
+http://2.57.217.85:8000/play/a008/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 1 🇬🇪
+http://2.57.217.85:8000/play/a05m/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 2 🇬🇪
 http://94.43.1.138:8081/setanta2/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 2 🇬🇪
+http://2.57.217.85:8000/play/a09f/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 2 🇬🇪
+http://2.57.217.85:8000/play/a05o/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 2 🇬🇪
+http://2.57.217.85:8000/play/a05n/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 3 🇬🇪
+http://2.57.217.85:8000/play/a080/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 3 🇬🇪
+http://2.57.217.85:8000/play/a001/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Setanta Sport 3 🇬🇪
+http://2.57.217.85:8000/play/a07i/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", 1arxi-sport 🇬🇪
+http://2.57.217.85:8000/play/a09g/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",  Setanta Qazaqstan 🇰🇿
 http://boxviptv.net:25461/Mhmn0028/3U3smSKML8/1100
@@ -1061,6 +1091,12 @@ http://91.219.133.62:1234/udp/239.1.2.91:1234
 #EXTINF:-1 group-title="Rus Futbol Kanalları",NOVA SPORT 5 🇨🇿
 http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2558/index.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları",ARENA SPORT 1 🇨🇿
+https://176.116.105.82/Arena_Sport1_HD/index.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları",ARENA SPORT 1 🇨🇿
+https://176.116.105.82/Arena_Sport2_HD/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", CANAL+ SPORT 2 HD 🇨🇿
 http://185.236.230.212:9982/play/a0b9
 
@@ -1073,11 +1109,17 @@ http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 1 HD 🇨🇿
 http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 1 HD 🇨🇿
+https://176.116.105.82/Sport1_HD/index.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 2 HD 🇨🇿
 http://88.212.15.19/live/test_sport_2/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 2 HD 🇨🇿
 http://185.98.211.8:81/sport2/index.m3u8?token=test
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SPORT 2 HD 🇨🇿
+https://176.116.105.82/Sport2_HD/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",  Arena_Sport 🇨🇿
 http://178.23.88.55/Arena_sport/index.m3u8
@@ -1651,6 +1693,9 @@ https://ww.dooballfree.vip/live/tsp2/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", True Football 7 HD Thailand 🇹🇭
 https://ww.dooballfree.vip/live/tsp7/playlist.m3u8
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Football HD Tajikistan 🇺🇿
+https://live.teleradiocom.tj/8/3m.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", T Sports HD 🇧🇩 
 http://103.240.44.26/T-Sports-HD/index.fmp4.m3u8

@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-22 18:26:50 UTC
+# Güncelleme tarihi: 2025-11-22 18:47:41 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -1844,6 +1844,9 @@ https://balance.footballii.ir/hls2/tv3.m3u8
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MMN Sport 🇸🇦
 http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
 
+#EXTINF:-1 group-title="Rus Futbol Kanalları", MMN Sport 🇸🇦
+http://ares.mnet.mk/hls/mnet-sport.m3u8
+
 #EXTINF:-1 group-title="Rus Futbol Kanalları", RTA SPORT 🇸🇦
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 
@@ -2021,131 +2024,131 @@ http://38gb.pro/live/1100788991/14811/197904.m3u8
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/777/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/777/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/778/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/778/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 3
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/779/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/779/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 4
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/780/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/780/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Max 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/781/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/781/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Max 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/782/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/782/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports 5
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/786/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/786/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", S Sport
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/763/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/763/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Spor Smart
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/610/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/610/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", CBC Sport
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1010/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1010/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", İDMAN TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1020/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1020/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", İCTİMAİ TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1030/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1030/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TV8,5
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/69/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/69/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", A Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/73/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/73/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", HT Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/74/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/74/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Tivibu Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/75/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/75/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", FB TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/76/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/76/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TRT Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/77/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/77/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", beIN Sports Haber
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/78/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/78/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", TRT Spor Yıldız
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/79/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/79/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", tabii Spor
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1080/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/1080/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Ekol Sports
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/46/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/46/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Eurosport 1
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/631/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/631/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", Eurosport 2
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/641/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/641/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", sportstv
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/464/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/464/playlist.m3u8
 
 #EXTINF:-1 group-title="Boss" tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="BOSS-SPORTS", NBA TV
 #EXTVLCOPT:http-referrer=https://bosssports208.com
 #EXTVLCOPT:http-origin=https://bosssports208.com
-https://b926948e0bc34006fa.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/608/playlist.m3u8
+https://92f4d2181fa0dda317.pages.dev/f6e33e69e0fdec0a7780e174f3c8b2c2/-/608/playlist.m3u8
 
 

@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-22 03:37:14 UTC
+# Güncelleme tarihi: 2025-11-22 04:23:02 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -200,7 +200,7 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/chec
 #EXTINF:-1 group-title="NexaTV" tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamliveexn7.m3u8
 
-# Generated: 2025-11-21T03:46:41.720663
+# Generated: 2025-11-22T03:40:06.071531
 #EXTINF:-1 group-title="Selçuk Yayınları", Kaynak: selcuk.m3u
 #EXTM3U
 #EXTINF:-1 group-title="Selçuk Yayınları" tvg-id="bein1" tvg-name="BeIN Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",BeIN Sports 1

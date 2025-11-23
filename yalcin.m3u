@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-23 12:35:27 UTC
+# Güncelleme tarihi: 2025-11-23 13:23:06 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -292,12 +292,6 @@ https://str2.yodacdn.net/idman_300_to_small/tracks-v1a1/mono.m3u8?token=7b223154
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", SUPER SPORTS LA LIGA 🇿🇦
 http://145.239.5.177:80/565/index.m3u8
-
-#EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
-https://storage.googleapis.com/portkeka78/mux_video_ts/index-1.m3u8
-
-#EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
-https://storage.googleapis.com/uncertingiugn6/mux_video_ts1/index-1.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları",ESPN DEPORTES 🇺🇸
 http://104.243.40.13:8989/279426_.m3u8

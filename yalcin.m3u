@@ -1,132 +1,132 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-23 18:27:13 UTC
+# Güncelleme tarihi: 2025-11-23 18:48:11 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)",Bein Sports 1 HD (VIP)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinzirve.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinzirve.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD",Bein Sports 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayin1.m3u8
+https://tfc.04bf112a615942b33.sbs/yayin1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports2.tr" tvg-name="Bein Sports 2 HD",Bein Sports 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinb2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinb2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports3.tr" tvg-name="Bein Sports 3 HD",Bein Sports 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinb3.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinb3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports4.tr" tvg-name="Bein Sports 4 HD",Bein Sports 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinb4.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinb4.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinSports5.tr" tvg-name="Bein Sports 5 HD",Bein Sports 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinb5.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinb5.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinMax1.tr" tvg-name="Bein Max 1 HD",Bein Max 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinbm1.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinbm1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="BeinMax2.tr" tvg-name="Bein Max 2 HD",Bein Max 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinbm2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinbm2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSport1.tr" tvg-name="S Sport 1 HD",S Sport 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinss.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinss.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSport2.tr" tvg-name="S Sport 2 HD",S Sport 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinss2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinss2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SSportPlus.tr" tvg-name="S Sport Plus HD",S Sport Plus HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinssp2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinssp2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor1.tr" tvg-name="Tivibu Spor 1 HD",Tivibu Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayint1.m3u8
+https://tfc.04bf112a615942b33.sbs/yayint1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor2.tr" tvg-name="Tivibu Spor 2 HD",Tivibu Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayint2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayint2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TivibuSpor3.tr" tvg-name="Tivibu Spor 3 HD",Tivibu Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayint3.m3u8
+https://tfc.04bf112a615942b33.sbs/yayint3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SmartSpor1.tr" tvg-name="Smart Spor 1 HD",Smart Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinsmarts.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinsmarts.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="SmartSpor2.tr" tvg-name="Smart Spor 2 HD",Smart Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinsms2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinsms2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TRTSpor.tr" tvg-name="TRT Spor HD",TRT Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayintrtspor.m3u8
+https://tfc.04bf112a615942b33.sbs/yayintrtspor.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız HD",TRT Spor Yıldız HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayintrtspor2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayintrtspor2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ASpor.tr" tvg-name="A Spor HD",A Spor HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinas.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinas.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ATV.tr" tvg-name="ATV HD",ATV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinatv.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinatv.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TV8.tr" tvg-name="TV8 HD",TV8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayintv8.m3u8
+https://tfc.04bf112a615942b33.sbs/yayintv8.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="TV85.tr" tvg-name="TV8.5 HD",TV8.5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayintv85.m3u8
+https://tfc.04bf112a615942b33.sbs/yayintv85.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="NBATV.tr" tvg-name="NBA TV HD",NBA TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinnbatv.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinnbatv.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor1.tr" tvg-name="Exxen Spor 1 HD",Exxen Spor 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex1.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex1.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor2.tr" tvg-name="Exxen Spor 2 HD",Exxen Spor 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex2.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex2.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor3.tr" tvg-name="Exxen Spor 3 HD",Exxen Spor 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex3.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex3.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor4.tr" tvg-name="Exxen Spor 4 HD",Exxen Spor 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex4.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex4.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor5.tr" tvg-name="Exxen Spor 5 HD",Exxen Spor 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex5.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex5.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor6.tr" tvg-name="Exxen Spor 6 HD",Exxen Spor 6 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex6.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex6.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor7.tr" tvg-name="Exxen Spor 7 HD",Exxen Spor 7 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex7.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex7.m3u8
 #EXTINF:-1 group-title="Türk Kanalları" tvg-id="ExxenSpor8.tr" tvg-name="Exxen Spor 8 HD",Exxen Spor 8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1462.xyz/
-https://w2s.04bf112a615942b32.sbs/yayinex8.m3u8
+https://tfc.04bf112a615942b33.sbs/yayinex8.m3u8
 #EXTINF:-1 group-title="NexaTV", Kaynak: NexaTV.m3u
 #EXTM3U
 #EXTINF:-1 group-title="NexaTV" tvg-id="sport.tr" tvg-name="TR:beIN Sport 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="NexaTV",TR:beIN Sport 1 HD

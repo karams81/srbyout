@@ -1,5 +1,5 @@
 #EXTM3U
-# Güncelleme tarihi: 2025-11-24 16:45:22 UTC
+# Güncelleme tarihi: 2025-11-24 17:19:06 UTC
 
 #EXTINF:-1 group-title="Türk Kanalları", Kaynak: trgoalas.m3u
 #EXTM3U
@@ -261,6 +261,9 @@ https://dga1op10s1u3lep.eaf7037ecd540a.click/live/selcukeurosport2/playlist.m3u8
 #EXTM3U
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", HYP 🇪🇸
+http://tv.zapping.life:8080/abelardo2020/ES4G1y3eXX/158476
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", HYP 🇪🇸
 http://172.93.102.112:8989/278842_.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", M HYP 🇪🇸
@@ -268,6 +271,12 @@ https://s@broadcasthub.click/hls/CJ9AwYimdyUo/index.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", Bein MAX 4 🇫🇷
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/33519
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", SKY SPORT LALIGA 🇲🇽
+http://tv.zapping.life:8080/abelardo2020/ES4G1y3eXX/9599
+
+#EXTINF:-1 group-title="Rus Futbol Kanalları", Nova Sport 3 🇨🇿
+http://185.188.188.237:5000/live/novasport3/playlist.m3u8
 
 #EXTINF:-1 group-title="Rus Futbol Kanalları", MAX SPORT 2 🇧🇬
 http://213.169.39.30:5140

@@ -2,27 +2,39 @@ import requests
 import re
 
 # M3U içeriği
-m3u_content = "#EXTM3U\n"  # <-- Burası önemli, en üstte olacak
+m3u_content = "#EXTM3U\n"
 
-# Trgoals domain kontrol
+# HTTP header'ları
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://google.com/"
+}
+
+# Domain arama
 base = "https://trgoals"
 domain = ""
+
+print("Domain taranıyor...")
 
 for i in range(1393, 2101):
     test_domain = f"{base}{i}.xyz"
     try:
-        response = requests.head(test_domain, timeout=3)
-        if response.status_code == 200:
+        response = requests.get(test_domain, timeout=2, allow_redirects=True, headers=headers)
+        if response.status_code in [200, 301, 302]:
             domain = test_domain
+            print(f"Bulunan domain: {domain}")
             break
     except:
-        continue
+        pass
 
 if not domain:
     print("Çalışır bir domain bulunamadı.")
     exit()
 
-# Kanal ID'leri ve isimleri
+# VLC referer bu domain olsun (istersen sabit bırakabiliriz)
+vlc_referer = domain + "/"
+
+# Kanal ID’leri
 channel_ids = {
     "yayinzirve":"beIN Sports 1 ☪️","yayininat":"beIN Sports 1 ⭐","yayin1":"beIN Sports 1 ♾️",
     "yayinb2":"beIN Sports 2","yayinb3":"beIN Sports 3","yayinb4":"beIN Sports 4",
@@ -36,22 +48,39 @@ channel_ids = {
     "yayinex7":"Tâbii 7","yayinex8":"Tâbii 8"
 }
 
-# Kanalları çek
-for channel_id, channel_name in channel_ids.items():
-    channel_url = f"{domain}/channel.html?id={channel_id}"
-    try:
-        r = requests.get(channel_url, headers={"User-Agent":"Mozilla/5.0"}, timeout=5)
-        match = re.search(r'const baseurl = "(.*?)"', r.text)
-        if match:
-            baseurl = match.group(1)
-            full_url = f"http://palxlendimgaliba1010.mywire.org/proxy.php?url={baseurl}{channel_id}.m3u8"
-            m3u_content += f'#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="TURKIYE DEATHLESS", {channel_name}\n'
-            m3u_content += f'{full_url}\n'
-    except:
-        continue
+print("Kanallar işleniyor...")
 
-# Dosyaya kaydet
-with open("srby.m3u", "w", encoding="utf-8") as f:
+for channel_id, channel_name in channel_ids.items():
+    try:
+        # Kanal sayfasını çek
+        channel_url = f"{domain}/channel.html?id={channel_id}"
+        r = requests.get(channel_url, headers=headers, timeout=4)
+
+        # baseurl bul
+        match = re.search(r'const baseurl = "(.*?)"', r.text)
+        if not match:
+            print(f"⚠ Baseurl bulunamadı: {channel_id}")
+            continue
+
+        baseurl = match.group(1)
+        full_url = f"{baseurl}{channel_id}.m3u8"
+
+        # ✔ VLC için özel header satırları
+        m3u_content += (
+            f'#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" '
+            f'group-title="TURKIYE DEATHLESS", {channel_name}\n'
+        )
+        m3u_content += '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n'
+        m3u_content += f'#EXTVLCOPT:http-referer={vlc_referer}\n'
+        m3u_content += f"{full_url}\n"
+
+        print(f"✔ {channel_name} eklendi")
+    
+    except Exception as e:
+        print(f"⚠ Hata: {channel_id} ({e})")
+
+# Kaydet
+with open("goals.m3u", "w", encoding="utf-8") as f:
     f.write(m3u_content)
 
-print("srby.m3u oluşturuldu.")
+print("\ngoals.m3u başarıyla oluşturuldu!")

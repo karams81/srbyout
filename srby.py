@@ -1,102 +1,57 @@
 import requests
 import re
-import sys
 
-# Terminal renkleri
-RED = "\033[91m"
-GREEN = "\033[92m"
-YELLOW = "\033[93m"
-RESET = "\033[0m"
+# M3U içeriği
+m3u_content = "#EXTM3U\n"  # <-- Burası önemli, en üstte olacak
 
-# Kanallar listesi (başına srby eklenecek)
-KANALLAR = [
-    {"dosya": "yayinzirve.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD (VIP)"},
-    {"dosya": "yayin1.m3u8", "tvg_id": "BeinSports1.tr", "kanal_adi": "Bein Sports 1 HD"},
-    {"dosya": "yayinb2.m3u8", "tvg_id": "BeinSports2.tr", "kanal_adi": "Bein Sports 2 HD"},
-    {"dosya": "yayinb3.m3u8", "tvg_id": "BeinSports3.tr", "kanal_adi": "Bein Sports 3 HD"},
-    {"dosya": "yayinb4.m3u8", "tvg_id": "BeinSports4.tr", "kanal_adi": "Bein Sports 4 HD"},
-    {"dosya": "yayinb5.m3u8", "tvg_id": "BeinSports5.tr", "kanal_adi": "Bein Sports 5 HD"},
-    {"dosya": "yayinbm1.m3u8", "tvg_id": "BeinMax1.tr", "kanal_adi": "Bein Max 1 HD"},
-    {"dosya": "yayinbm2.m3u8", "tvg_id": "BeinMax2.tr", "kanal_adi": "Bein Max 2 HD"},
-    {"dosya": "yayinss.m3u8", "tvg_id": "SSport1.tr", "kanal_adi": "S Sport 1 HD"},
-    {"dosya": "yayinss2.m3u8", "tvg_id": "SSport2.tr", "kanal_adi": "S Sport 2 HD"},
-    {"dosya": "yayinssp2.m3u8", "tvg_id": "SSportPlus.tr", "kanal_adi": "S Sport Plus HD"},
-    {"dosya": "yayint1.m3u8", "tvg_id": "TivibuSpor1.tr", "kanal_adi": "Tivibu Spor 1 HD"},
-    {"dosya": "yayint2.m3u8", "tvg_id": "TivibuSpor2.tr", "kanal_adi": "Tivibu Spor 2 HD"},
-    {"dosya": "yayint3.m3u8", "tvg_id": "TivibuSpor3.tr", "kanal_adi": "Tivibu Spor 3 HD"},
-    {"dosya": "yayinsmarts.m3u8", "tvg_id": "SmartSpor1.tr", "kanal_adi": "Smart Spor 1 HD"},
-    {"dosya": "yayinsms2.m3u8", "tvg_id": "SmartSpor2.tr", "kanal_adi": "Smart Spor 2 HD"},
-    {"dosya": "yayintrtspor.m3u8", "tvg_id": "TRTSpor.tr", "kanal_adi": "TRT Spor HD"},
-    {"dosya": "yayintrtspor2.m3u8", "tvg_id": "TRTSporYildiz.tr", "kanal_adi": "TRT Spor Yıldız HD"},
-    {"dosya": "yayinas.m3u8", "tvg_id": "ASpor.tr", "kanal_adi": "A Spor HD"},
-    {"dosya": "yayinatv.m3u8", "tvg_id": "ATV.tr", "kanal_adi": "ATV HD"},
-    {"dosya": "yayintv8.m3u8", "tvg_id": "TV8.tr", "kanal_adi": "TV8 HD"},
-    {"dosya": "yayintv85.m3u8", "tvg_id": "TV85.tr", "kanal_adi": "TV8.5 HD"},
-    {"dosya": "yayinnbatv.m3u8", "tvg_id": "NBATV.tr", "kanal_adi": "NBA TV HD"},
-    {"dosya": "yayinex1.m3u8", "tvg_id": "ExxenSpor1.tr", "kanal_adi": "Exxen Spor 1 HD"},
-    {"dosya": "yayinex2.m3u8", "tvg_id": "ExxenSpor2.tr", "kanal_adi": "Exxen Spor 2 HD"},
-    {"dosya": "yayinex3.m3u8", "tvg_id": "ExxenSpor3.tr", "kanal_adi": "Exxen Spor 3 HD"},
-    {"dosya": "yayinex4.m3u8", "tvg_id": "ExxenSpor4.tr", "kanal_adi": "Exxen Spor 4 HD"},
-    {"dosya": "yayinex5.m3u8", "tvg_id": "ExxenSpor5.tr", "kanal_adi": "Exxen Spor 5 HD"},
-    {"dosya": "yayinex6.m3u8", "tvg_id": "ExxenSpor6.tr", "kanal_adi": "Exxen Spor 6 HD"},
-    {"dosya": "yayinex7.m3u8", "tvg_id": "ExxenSpor7.tr", "kanal_adi": "Exxen Spor 7 HD"},
-    {"dosya": "yayinex8.m3u8", "tvg_id": "ExxenSpor8.tr", "kanal_adi": "Exxen Spor 8 HD"},
-]
+# Trgoals domain kontrol
+base = "https://trgoals"
+domain = ""
 
-def siteyi_bul():
-    print(f"\n{GREEN}[*] Site aranıyor...{RESET}")
-    for i in range(1390, 2999):
-        url = f"https://trgoals{i}.xyz/"
-        try:
-            r = requests.get(url, timeout=5)
-            if r.status_code == 200:
-                if "channel.html?id=" in r.text:
-                    print(f"{GREEN}[OK] Yayın bulundu: {url}{RESET}")
-                    return url
-                else:
-                    print(f"{YELLOW}[-] {url} yayında ama yayın linki yok.{RESET}")
-        except requests.RequestException:
-            print(f"{RED}[-] {url} erişilemedi.{RESET}")
-    return None
-
-def find_baseurl(url):
+for i in range(1393, 2101):
+    test_domain = f"{base}{i}.xyz"
     try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-    except requests.RequestException:
-        return None
-    match = re.search(r'baseurl\s*[:=]\s*["\']([^"\']+)["\']', r.text)
-    if match:
-        return match.group(1)
-    return None
+        response = requests.head(test_domain, timeout=3)
+        if response.status_code == 200:
+            domain = test_domain
+            break
+    except:
+        continue
 
-def generate_m3u(base_url, referer, user_agent):
-    lines = ["#EXTM3U"]
-    for idx, k in enumerate(KANALLAR, start=1):
-        name = f"srby {k['kanal_adi']}"
-        lines.append(f'#EXTINF:-1 tvg-id="{k["tvg_id"]}" tvg-name="{name}",{name}')
-        lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
-        lines.append(f'#EXTVLCOPT:http-referrer={referer}')
-        lines.append(base_url + k["dosya"])
-        print(f"  ✔ {idx:02d}. {name}")
-    return "\n".join(lines)
+if not domain:
+    print("Çalışır bir domain bulunamadı.")
+    exit()
 
-if __name__ == "__main__":
-    site = siteyi_bul()
-    if not site:
-        print(f"{RED}[HATA] Yayın yapan site bulunamadı.{RESET}")
-        sys.exit(1)
+# Kanal ID'leri ve isimleri
+channel_ids = {
+    "yayinzirve":"beIN Sports 1 ☪️","yayininat":"beIN Sports 1 ⭐","yayin1":"beIN Sports 1 ♾️",
+    "yayinb2":"beIN Sports 2","yayinb3":"beIN Sports 3","yayinb4":"beIN Sports 4",
+    "yayinb5":"beIN Sports 5","yayinbm1":"beIN Sports 1 Max","yayinbm2":"beIN Sports 2 Max",
+    "yayinss":"Saran Sports 1","yayinss2":"Saran Sports 2","yayint1":"Tivibu Sports 1",
+    "yayint2":"Tivibu Sports 2","yayint3":"Tivibu Sports 3","yayint4":"Tivibu Sports 4",
+    "yayinsmarts":"Smart Sports","yayinsms2":"Smart Sports 2","yayintrtspor":"TRT Spor",
+    "yayintrtspor2":"TRT Spor 2","yayinas":"A Spor","yayinatv":"ATV","yayintv8":"TV8",
+    "yayintv85":"TV8.5","yayinnbatv":"NBA TV","yayinex1":"Tâbii 1","yayinex2":"Tâbii 2",
+    "yayinex3":"Tâbii 3","yayinex4":"Tâbii 4","yayinex5":"Tâbii 5","yayinex6":"Tâbii 6",
+    "yayinex7":"Tâbii 7","yayinex8":"Tâbii 8"
+}
 
-    channel_url = site.rstrip("/") + "/channel.html?id=yayinzirve"
-    base_url = find_baseurl(channel_url)
-    if not base_url:
-        print(f"{RED}[HATA] Base URL bulunamadı.{RESET}")
-        sys.exit(1)
+# Kanalları çek
+for channel_id, channel_name in channel_ids.items():
+    channel_url = f"{domain}/channel.html?id={channel_id}"
+    try:
+        r = requests.get(channel_url, headers={"User-Agent":"Mozilla/5.0"}, timeout=5)
+        match = re.search(r'const baseurl = "(.*?)"', r.text)
+        if match:
+            baseurl = match.group(1)
+            full_url = f"http://palxlendimgaliba1010.mywire.org/proxy.php?url={baseurl}{channel_id}.m3u8"
+            m3u_content += f'#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="TURKIYE DEATHLESS", {channel_name}\n'
+            m3u_content += f'{full_url}\n'
+    except:
+        continue
 
-    playlist = generate_m3u(base_url, site, "Mozilla/5.0")
-    with open("srby.m3u", "w", encoding="utf-8") as f:
-        f.write(playlist)
+# Dosyaya kaydet
+with open("srby.m3u", "w", encoding="utf-8") as f:
+    f.write(m3u_content)
 
-
-    print(f"{GREEN}[OK] Playlist oluşturuldu: srby.m3u{RESET}")
-
+print("srby.m3u oluşturuldu.")

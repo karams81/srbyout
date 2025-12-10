@@ -1,44 +1,31 @@
-name: Update Sporcafe M3U
+name: Cafe M3U Generator
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'  # Her 4 saatte bir
-  workflow_dispatch:  # Manuel çalıştırma
+  workflow_dispatch:
   push:
-    branches: [ main ]
-
-permissions:
-  contents: write
+    branches: ["main"]
 
 jobs:
-  update:
+  run-script:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    
-    - name: Install dependencies
-      run: pip install requests
-    
-    - name: Generate M3U playlist
-      run: python cafe.py
-    
-    - name: Show file info
-      run: |
-        echo "Generated file:"
-        ls -la sporcafe.m3u
-        echo ""
-        echo "First 10 lines:"
-        head -10 sporcafe.m3u
-    
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add sporcafe.m3u
-        git diff --quiet && git diff --staged --quiet || (git commit -m "📺 Update sporcafe.m3u - $(date +'%Y-%m-%d %H:%M')" && git push)
+      - name: Repo dosyalarını indir
+        uses: actions/checkout@v3
+
+      - name: Python 3.10 kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Gerekli paketleri kur
+        run: pip install requests
+
+      - name: Python scripti çalıştır
+        run: python sporcafe.py
+
+      - name: Üretilen M3U dosyasını kaydet (artifact)
+        uses: actions/upload-artifact@v3
+        with:
+          name: cafe-m3u
+          path: cafe.m3u

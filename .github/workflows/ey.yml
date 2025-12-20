@@ -1,0 +1,21 @@
+name: Cron Test
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # 6 saatte bir
+  workflow_dispatch:
+
+jobs:
+  cron-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Script çalıştır
+        run: |
+          php index.php

@@ -1,4 +1,4 @@
-name: M3U Build
+name: M3U Generator
 
 on:
   workflow_dispatch:
@@ -8,20 +8,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Repo checkout
+        uses: actions/checkout@v4
 
-      - uses: shivammathur/setup-php@v2
+      - name: PHP kur
+        uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
 
       - name: PHP script çalıştır
         run: php index.php
 
-      - name: M3U var mı kontrol et
-        run: ls -lh NETSpor.m3u
+      - name: Dosyaları listele
+        run: ls -lh
 
-      - name: Artifact olarak yükle
+      - name: Debug göster
+        run: cat debug.txt || true
+
+      - name: Artifact yükle
         uses: actions/upload-artifact@v4
         with:
-          name: NETSpor
-          path: NETSpor.m3u
+          name: netsport-debug
+          path: |
+            NETSpor.m3u
+            debug.txt

@@ -1270,6 +1270,24 @@ https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&cust
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_3_esk_gs&secure=1
 #EXTINF:-1 tvg-id="25467" tvg-logo="https://media01.tr.beinsports.com/img/highlights/11868980.jpg" group-title="Süper Lig 2013/2014",Tümosan Konyaspor 1-2 Kasımpaşa
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_3_kon_kpasa&secure=1
+#EXTINF:-1 tvg-id="24044" tvg-logo="https://media03.tr.beinsports.com/img/highlights/11868991.jpg" group-title="Süper Lig 2013/2014",Kasımpaşa 2-3 Fenerbahçe
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_kpasa_fb&secure=1
+#EXTINF:-1 tvg-id="1014286" tvg-logo="https://media02.tr.beinsports.com/img/highlights/11868987.jpg" group-title="Süper Lig 2013/2014",B. Elazığspor 2-0 Tümosan Konyaspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_ela_kon&secure=1
+#EXTINF:-1 tvg-id="1014282" tvg-logo="https://media01.tr.beinsports.com/img/highlights/11868992.jpg" group-title="Süper Lig 2013/2014",Özbelsan Sivasspor 3-2 Eskişehirspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_svs_esk&secure=1
+#EXTINF:-1 tvg-id="1014283" tvg-logo="https://media02.tr.beinsports.com/img/highlights/11868990.jpg" group-title="Süper Lig 2013/2014",Gençlerbirliği 1-1 Zecorner Kayserispor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_gb_kay&secure=1
+#EXTINF:-1 tvg-id="39496" tvg-logo="https://media02.tr.beinsports.com/img/highlights/11868994.jpg" group-title="Süper Lig 2013/2014",Bursaspor 0-3 Beşiktaş
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_bursa_bjk&secure=1
+#EXTINF:-1 tvg-id="1014281" tvg-logo="https://media03.tr.beinsports.com/img/highlights/11868993.jpg" group-title="Süper Lig 2013/2014",Gaziantepspor 2-5 Çaykur Rizespor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_antep_rize&secure=1
+#EXTINF:-1 tvg-id="1014287" tvg-logo="https://media03.tr.beinsports.com/img/highlights/11868986.jpg" group-title="Süper Lig 2013/2014",Trabzonspor 1-0 K.Karabükspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_ts_krbk&secure=1
+#EXTINF:-1 tvg-id="1014284" tvg-logo="https://media03.tr.beinsports.com/img/highlights/11868989.jpg" group-title="Süper Lig 2013/2014",K. Erciyesspor 1-0 Akhisarspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_erc_ak&secure=1
+#EXTINF:-1 tvg-id="1014285" tvg-logo="https://media01.tr.beinsports.com/img/highlights/11868988.jpg" group-title="Süper Lig 2013/2014",Galatasaray 1-1 Hesap.com Antalyaspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_4_gs_ant&secure=1
 #EXTINF:-1 tvg-id="23218" tvg-logo="https://media02.tr.beinsports.com/img/highlights/11868999.jpg" group-title="Süper Lig 2013/2014",Zecorner Kayserispor 0-1 Trabzonspor
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20132014_5_kay_ts&secure=1
 #EXTINF:-1 tvg-id="1014275" tvg-logo="https://media03.tr.beinsports.com/img/highlights/11869003.jpg" group-title="Süper Lig 2013/2014",Beşiktaş 0-3 Galatasaray
@@ -2784,24 +2802,6 @@ https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&cust
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_21_gb_bur_13subat&secure=1
 #EXTINF:-1 tvg-id="23944" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117624.jpg" group-title="Süper Lig 2015/2016",Fenerbahçe 3-1 Kasımpaşa
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_21_fb_pasa_12subat&secure=1
-#EXTINF:-1 tvg-id="1034701" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117636.jpg" group-title="Süper Lig 2015/2016",Beşiktaş 1-0 Gençlerbirliği
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_bjk_gb_22subat&secure=1
-#EXTINF:-1 tvg-id="1013757" tvg-logo="https://media01.tr.beinsports.com/img/highlights/111117639.jpg" group-title="Süper Lig 2015/2016",Galatasaray 2-1 Trabzonspor
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_gs_ts_21subat&secure=1
-#EXTINF:-1 tvg-id="1013759" tvg-logo="https://media03.tr.beinsports.com/img/highlights/111117637.jpg" group-title="Süper Lig 2015/2016",Akhisarspor 0-0 Rams Başakşehir
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_ak_bas1_21subat&secure=1
-#EXTINF:-1 tvg-id="1013756" tvg-logo="https://media03.tr.beinsports.com/img/highlights/111117640.jpg" group-title="Süper Lig 2015/2016",Ankaraspor 3-1 Mersin İY
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_osm_miy_21subat&secure=1
-#EXTINF:-1 tvg-id="1013758" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117638.jpg" group-title="Süper Lig 2015/2016",Zecorner Kayserispor 2-2 Gaziantepspor
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_kay_antep_21subat&secure=1
-#EXTINF:-1 tvg-id="34696" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117632.jpg" group-title="Süper Lig 2015/2016",Bursaspor 0-0 Fenerbahçe
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_bur_fb_20subat&secure=1
-#EXTINF:-1 tvg-id="39339" tvg-logo="https://media01.tr.beinsports.com/img/highlights/111117633.jpg" group-title="Süper Lig 2015/2016",Hesap.com Antalyaspor 2-1 Çaykur Rizespor
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_ant_rize_20subat&secure=1
-#EXTINF:-1 tvg-id="1013761" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117634.jpg" group-title="Süper Lig 2015/2016",Kasımpaşa 2-1 Eskişehirspor
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_pasa_esk_20subat&secure=1
-#EXTINF:-1 tvg-id="18899" tvg-logo="https://media03.tr.beinsports.com/img/highlights/111117635.jpg" group-title="Süper Lig 2015/2016",Tümosan Konyaspor 2-1 Özbelsan Sivasspor
-https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_22_kon_svs_19subat&secure=1
 #EXTINF:-1 tvg-id="42194" tvg-logo="https://media03.tr.beinsports.com/img/highlights/111117645.jpg" group-title="Süper Lig 2015/2016",Fenerbahçe 2-0 Beşiktaş
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20152016_23_fen_bjk_29subat&secure=1
 #EXTINF:-1 tvg-id="1013755" tvg-logo="https://media02.tr.beinsports.com/img/highlights/111117643.jpg" group-title="Süper Lig 2015/2016",Gaziantepspor 2-0 Galatasaray
